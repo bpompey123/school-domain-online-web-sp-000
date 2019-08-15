@@ -22,7 +22,7 @@ class School
   #  binding.pry
     hash = {}
     roster.sort.each do |key, values|
-      roster[key] << values
+      roster[key] = values
     end
 
 
