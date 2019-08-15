@@ -18,13 +18,13 @@ class School
     roster[grade]
   end
 
-  def sort
+  def sort(roster)
   #  binding.pry
     hash = {}
     roster.sort.each do |key, values|
       roster[key] = values
     end
-
+  hash << roster
 
   end
 
