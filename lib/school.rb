@@ -21,8 +21,8 @@ class School
   def sort
   #  binding.pry
     hash = {}
-    roster.sort.each do |key, values|
-      roster[key] = values
+    roster.each do |key, values|
+      roster[key] = values.sort
     end
   hash << roster
 
