@@ -18,7 +18,7 @@ class School
     roster[grade]
   end
 
-  def sort(roster)
+  def sort
   #  binding.pry
     hash = {}
     roster.sort.each do |key, values|
