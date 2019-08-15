@@ -24,7 +24,7 @@ class School
     roster.each do |key, values|
       roster[key] = values.sort
     end
-  hash << roster
+#  hash << roster
 
   end
 
